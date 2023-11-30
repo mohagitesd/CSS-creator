@@ -1,0 +1,15 @@
+.richnou {
+    border: solid 1px black;
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+
+}

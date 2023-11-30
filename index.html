@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-creator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Modifier les prpriétes CSS</h1>
+
+    <div id="case">
+        <p class="richnou">Richnou</p>
+        <h2>Couleur du Texte</h2>
+
+
+        <p>
+            <button class="color" data-color="#80C1D6">Bleu</button>
+            <button class="color" data-color="#97A578">vert</button>
+            <button class="color" data-color="#EC253E">Rouge</button>
+            </label>
+
+        <h2>Couleur de fond</h2>
+        <p>
+            <button class="bgcolor" data-color="#3081D0">Bleu</button>
+            <button class="bgcolor" data-color="#637E76">Vert</button>
+            <button class="bgcolor" data-color="#DF826C">Rouge</button>
+
+        </p>
+
+        <h2>Police</h2>
+
+
+        <select id="font">
+            <option value="" selected>--Choisissez une police</option>
+            <option value="Roboto" class="font-roboto">Roboto</option>
+            <option value="Playfair display" class="font-playfair">Playfair display</option>
+        </select>
+
+
+        <h2>Taille du texte</h2>
+
+        <p>
+            <input id="size" type="number">
+        </p>
+
+        <h2>Pré-selection</h2>
+        <p>
+            <button>Barbie</button>
+            <button>En italique</button>
+        </p>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
